@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
-int somar(int a, int b) {
-    return a + b; 
+void nome(){
+	cout << "Bem-vindo";
 }
-int main() {
-    int resultado = somar(5, 3); 
-    cout << "A soma é: " << resultado;
-    
-    return 0;
+int main(){
+	nome();
+	
+	return 0;
 }
